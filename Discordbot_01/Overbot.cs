@@ -31,8 +31,9 @@ namespace Overbot
             var bot = new DiscordClient();
 
             bot.MessageReceived += bot_MessageReceived;
-
-            bot.Connect("discordoverbot@gmail.com", "24k7m093zsCUjv4rVRzY");
+            //////////////////////////////////////////
+            ///Hey their, I just tested the login and it works, discord will ban you for this and it isn't safe to show public.
+            bot.Connect("Your Email here", "Password");
 
             try{
             _assembly = Assembly.GetExecutingAssembly();
